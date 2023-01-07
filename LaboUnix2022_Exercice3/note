@@ -1,0 +1,2 @@
+on ouvre le fichier.log dans mainwindow ( constructeur open) 
+et on le ferme ( dans le bouton quitter) 

@@ -1,0 +1,11 @@
+Unix_Ex1:	main.cpp mainwindow.o moc_mainwindo.o
+			g++ main.cpp mainwindow.o moc-mainwindo.o -o Unix_Ex1
+
+mainwindow.0:	mainwindow.cpp mainwindow.h
+			g++ mainwindow.cpp -c
+
+moc_mainwindow.o:	moc_mainwindow.cpp ui_mainwindow.h
+			g++ moc_mainwindow.cpp -c
+			
+
+
